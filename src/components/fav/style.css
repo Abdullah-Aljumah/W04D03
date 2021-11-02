@@ -1,0 +1,19 @@
+.fav {
+    margin: 20px 20px ;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.fav li {
+background-color: rgba(168, 159, 159, 0.295);
+    border: 1px solid black;
+    list-style-type: none;
+text-align: center;
+font-size: 20px;
+}
+.fav img {
+    margin:5px 5px;
+width: 300px;
+height: 300px;
+}

@@ -17,3 +17,17 @@
   height: 400px;
   margin-bottom: 20px;
 }
+
+.buttons {
+  width: 100px;
+  height: 30px;
+  margin-bottom: 5px;
+  border-radius: 10%;
+  background-color: rgb(230, 63, 63);
+  border:1px solid black;
+  cursor: pointer;
+}
+
+.buttons:hover {
+  background-color: rgb(255, 0, 0);
+}
