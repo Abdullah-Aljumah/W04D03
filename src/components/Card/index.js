@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { useParams } from "react-router";
 import './style.css'
 const Card = () => {
@@ -29,7 +29,7 @@ const Card = () => {
   return (
     <div className='items'>
       <h1> {card.name} </h1>
-      <img  src={card.img} />
+      <img  src={card.img} alt='logo' />
     </div>
   );
 };

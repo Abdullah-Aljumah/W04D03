@@ -6,6 +6,7 @@ import Contact from './components/Contact'
 import Cards from './components/Cards'
 import Card from './components/Card'
 import Error404 from "./components/Error404"
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -17,8 +18,8 @@ const App = () => {
         <Route exact path="/Cards" component={Cards} />
         <Route exact path="/Card/:id" component={Card} />
         <Route exact path="*" component={Error404} />
-
       </Switch>
+      <Footer />
     </div>
   );
 };

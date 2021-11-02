@@ -3,7 +3,7 @@ import { useHistory } from "react-router";
 import "./style.css";
 const Cards = () => {
   const history = useHistory();
-  const [cards, setCard] = useState([
+  const [cards] = useState([
     {
       id: 0,
       name: "Tree ",
@@ -31,7 +31,7 @@ const Cards = () => {
         {cards.map((item, i) => (
           <div className="cards">
             <li className="card" key={i} onClick={() => cardPage(item.id)}>
-              <h2>{item.name}</h2> <img src={item.img} />
+              <h2>{item.name}</h2> <img src={item.img} alt='gg' />
             </li>
           </div>
         ))}
