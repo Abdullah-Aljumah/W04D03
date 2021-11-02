@@ -1,0 +1,26 @@
+.nav {
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    background-color: black;
+    align-items: center;
+}
+
+.links {
+
+    color: white;
+    text-decoration: none;
+
+}
+
+.links:hover {
+    color: blue;
+}
+
+.icon {
+    color: white;
+    font-size: 30px;
+}
+
